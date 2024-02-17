@@ -1,0 +1,36 @@
+.App {
+    display: flex;
+    height: 100vh;
+}
+.card {
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 7px 14px #888888;
+    height: 70vh;
+}
+.card h1 {
+    margin-bottom: 0;
+}
+.card p {
+    margin: 0;
+}
+
+.temperature {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.temp-div {
+    width: 134px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.parent {
+    text-align: left;
+    display: flex;
+    margin-left: 30px;
+}
